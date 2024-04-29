@@ -1,0 +1,42 @@
+.main-section {
+  background-color: cornsilk;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #170707;
+
+  .tagline {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .view-work-btn {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+  }
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 1em 0;
+  text-align: center;
+
+  .social-links {
+    margin-bottom: 1em;
+
+    a {
+      margin: 0 0.5em;
+
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+}
